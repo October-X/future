@@ -1,0 +1,129 @@
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f8f5f5;
+}
+body::-webkit-scrollbar {
+  width: 0;
+}
+@font-face {
+  font-family: "webfont";
+  font-display: swap;
+  src: url("../font/webfont.eot");
+  /* IE9 */
+  src: url("../font/webfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../font/webfont.woff2") format("woff2"), url("../font/webfont.woff") format("woff"), /* chrome、firefox */ url("../font/webfont.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url("../font/webfont.svg#webfont") format("svg");
+  /* iOS 4.1- */
+}
+.web-font {
+  font-family: "webfont" !important;
+  font-size: 1.6rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+iframe {
+  margin-top: 2.666667rem;
+  margin-bottom: 2.752rem;
+  width: 100%;
+  height: 29.973333rem;
+}
+.head {
+  height: 2.666667rem;
+}
+header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 2.666667rem;
+  background-color: white;
+  padding: 0.426667rem 0.853333rem;
+  display: flex;
+  z-index: 9999;
+}
+header button {
+  background-color: white;
+  line-height: 1.813333rem;
+  border: 0;
+}
+header .logo {
+  display: flex;
+  flex: 64%;
+  align-items: center;
+}
+header .icon,
+header .music {
+  display: flex;
+  flex: 12%;
+  align-items: center;
+  background-color: white;
+  left: 50%;
+}
+header .icon img,
+header .music img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+}
+header .music:hover img {
+  content: url(../icons/音乐_after.png);
+}
+.foot {
+  height: 2.933333rem;
+}
+footer {
+  left: 0;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 2.933333rem;
+  border-radius: 0.533333rem 0.533333rem 0 0;
+  background-color: white;
+  z-index: 9999;
+}
+footer .icon {
+  display: flex;
+  flex: 20%;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.266667rem;
+}
+footer .icon img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+}
+footer .icon p {
+  font-size: 0.4rem;
+  color: #000000;
+  margin-top: 0.266667rem;
+}
+footer a:hover p {
+  color: #1296db;
+}
+footer a:nth-of-type(1):hover img {
+  content: url(../icons/壁纸_after.png);
+}
+footer a:nth-of-type(2):hover img {
+  content: url(../icons/头像_after.png);
+}
+footer a:nth-of-type(3):hover img {
+  content: url(../icons/首页_after.png);
+}
+footer a:nth-of-type(4):hover img {
+  content: url(../icons/表情_after.png);
+}
+footer a:nth-of-type(5):hover img {
+  content: url(../icons/我的_after.png);
+}

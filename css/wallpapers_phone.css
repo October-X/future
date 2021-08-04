@@ -1,0 +1,68 @@
+/* 壁纸内容 */
+.single img {
+  width: 5.866667rem;
+  height: 12.693333rem;
+  border-radius: .533333rem;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.single {
+  position: relative;
+  float: left;
+  width: 11.733333rem;
+  height: 12.693333rem;
+  margin-right: .533333rem;
+  margin-left: .533333rem;
+  transition: all 0.5s;
+  z-index: 2;
+}
+.preview {
+  display: none;
+  position: absolute;
+  width: 1.333333rem;
+  height: 1.333333rem;
+  border-radius: .666667rem;
+  background: url("../icons/preview.png") no-repeat .146667rem .133333rem;
+  background-color: white;
+  background-size: 1.066667rem;
+  top: 0;
+  right: 0;
+  text-align: center;
+  transition: all 0.3s;
+}
+.download {
+  display: none;
+  position: absolute;
+  width: 1.333333rem;
+  height: 1.333333rem;
+  border-radius: .666667rem;
+  background: url("../icons/download.png") no-repeat .16rem .133333rem;
+  background-color: white;
+  background-size: 1.066667rem;
+  top: 1.6rem;
+  right: 0;
+  text-align: center;
+  transition: all 0.3s;
+}
+.single:hover .notes {
+  visibility: visible;
+}
+.preview:hover {
+  background: url("../icons/preview_after.png") no-repeat .146667rem .133333rem;
+  background-color: white;
+  background-size: 1.066667rem;
+}
+.download:hover {
+  background: url("../icons/download_after.png") no-repeat .16rem .133333rem;
+  background-color: white;
+  background-size: 1.066667rem;
+}
+.single:hover {
+  transform: scale(1.05, 1.05);
+}
+.single:hover .preview {
+  display: block;
+}
+.single:hover .download {
+  display: block;
+}
+/* 壁纸内容结束 */
