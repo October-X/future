@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="css/wallpapers_phone.css">
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        body{
+            background-color: white;
+        }
+        .head{
+            height: 3.2rem;
+            background-color: white;
+        }
+        .foot{
+        height: 2.666667rem;
+        background-color: white;
+        }
+        .in{
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .single{
+            margin-left: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        .single .every-profile{
+            width: 8rem;
+            height: 8rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部栏 -->
+    <!-- <header>
+        <button type="button" class="logo"><i class="web-font">FUTURE</i></button>
+        <button type="button" class="icon" onclick="javascript:window.open('https://www.baidu.com')"><img src="icons/搜索.png" alt=""></button>
+        <button type="button" class="music" id="play" onclick="play()"><img src="icons/音乐.png" alt=""></button>
+        <button type="button" class="icon"><img src="icons/更多.png" alt=""></button>
+        <audio src="media/ALisa - The Way I Still Love You.mp3" id="playaudio"></audio>
+    </header> -->
+    <!-- 头部栏结束 -->
+    <div class="head"></div>
+    <!-- <div class="in"> -->
+        <div class="single">
+            <img class="every-profile" src="upload/profile/1.jpg">
+            <a class="download" href="upload/profile/1.jpg" target="_blank" download="img"></a>      
+        </div>
+        <div class="single">
+            <img class="every-profile" src="upload/profile/2.jpg">
+            <a class="download" href="upload/profile/2.jpg" target="_blank" download="img"></a>      
+        </div>
+        <div class="single">
+            <img class="every-profile" src="upload/profile/3.jpg">
+            <a class="download" href="upload/profile/3.jpg" target="_blank" download="img"></a>      
+        </div>
+        <div class="single">
+            <img class="every-profile" src="upload/profile/4.jpg">
+            <a class="download" href="upload/profile/4.jpg" target="_blank" download="img"></a>      
+        </div> 
+        <div class="single">
+            <img class="every-profile" src="upload/profile/5.jpg">
+            <a class="download" href="upload/profile/5.jpg" target="_blank" download="img"></a>      
+        </div> 
+        <div class="single">
+            <img class="every-profile" src="upload/profile/6.jpg">
+            <a class="download" href="upload/profile/6.jpg" target="_blank" download="img"></a>      
+        </div> 
+        <div class="single">
+            <img class="every-profile" src="upload/profile/7.jpg">
+            <a class="download" href="upload/profile/7.jpg" target="_blank" download="img"></a>      
+        </div> 
+        <div class="single">
+            <img class="every-profile" src="upload/profile/8.jpg">
+            <a class="download" href="upload/profile/8.jpg" target="_blank" download="img"></a>      
+        </div> 
+        <div class="single">
+            <img class="every-profile" src="upload/profile/9.jpg">
+            <a class="download" href="upload/profile/9.jpg" target="_blank" download="img"></a>      
+        </div> 
+        <div class="single">
+            <img class="every-profile" src="upload/profile/10.jpeg">
+            <a class="download" href="upload/profile/10.jpeg" target="_blank" download="img"></a>      
+        </div> 
+    <!-- </div> -->
+        <!-- 底部栏 -->
+        <!-- <footer>
+            <a href="wallpaper.html" class="icon">
+                <img src="icons/壁纸.png" alt="">
+                <p>壁纸</p>
+            </a>
+            <a href="profile.html" class="icon">
+                <img src="icons/头像.png" alt="">
+                <p>头像</p>
+            </a>
+            <a href="index.html" class="icon">
+                <img src="icons/首页.png" alt="">
+                <p>首页</p>
+            </a>
+            <a href="emoticon.html" class="icon">
+                <img src="icons/表情.png" alt="">
+                <p>表情</p>
+            </a>
+            <a href="#" class="icon">
+                <img src="icons/我的.png" alt="">
+                <p>我的</p>
+            </a>
+        </footer> -->
+        <!-- 底部栏结束 -->
+    <script src="js/flexible.js"></script>
+    <script>
+        function play(){   
+        var audio7 = document.getElementById('playaudio');     
+        if(audio7.paused){                 
+         audio7.play();//audio.play();// 播放  
+        }
+        else{    
+         audio7.pause();// 暂停    
+        }   
+    }  
+    </script>
+</body>
+</html>

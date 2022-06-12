@@ -38,15 +38,20 @@ li {
   }
 }
 iframe{
-    margin-top: 2.666667rem;
-    margin-bottom: 2.752rem;
+    // margin-top: 2.666667rem;
+    // margin-bottom: 2.752rem;
     width: 100%;
-    height: 29.973333rem;
+    // height: 29.973333rem;
+    // height: 35.3rem;
+    height: 32.76rem;
     // background-color: white;
 }
 // 头部导航栏
 .head{
     height: 2.666667rem;
+}
+.foot{
+  height: 2.933333rem;
 }
 header {
   left: 0;
@@ -58,6 +63,7 @@ header {
   padding: 0.426667rem 0.853333rem;
   display: flex;
   z-index: 9999;
+  // position: relative;
 
   button {
     background-color: white;
@@ -84,13 +90,39 @@ header {
   .music:hover img{
       content: url(../icons/音乐_after.png) ;
   }
+
+  #div{
+    left: 0;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    // height: 8rem;
+    background-color: pink;
+    top: 2.666667rem;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+
+    button{
+      float: left;
+      width: 100%;
+      height: 1.8rem;
+      line-height: 1.8rem;
+      border: 0;
+      font-size: .8rem;
+      font-weight: 800;
+      color: #1296db;
+      background: transparent;
+    }
+    button:hover{
+      background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+      color: white;
+    }
+  }
 }
 // 头部导航栏结束
 //底部导航栏
-.foot{
-    height: 2.933333rem;
-}
 footer{
+    // border-top: 1px solid #1296db;
     left: 0;
     position: fixed;
     bottom: 0;
@@ -99,7 +131,25 @@ footer{
     height: 2.933333rem;
     border-radius: .533333rem .533333rem 0 0;
     background-color: white;
+    // position: sticky;
     z-index: 9999;
+    display: flex;
+    flex-wrap: wrap;
+
+    #content{
+      position: absolute;
+      flex: 100%;
+      width: 100%;
+      height: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+      bottom: 2.933333rem;
+      color: rgb(255, 255, 255);
+      line-height: 1rem;
+      text-align: center;
+      font-size: .8rem;
+    }
 
     .icon{
         display: flex;

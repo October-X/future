@@ -8,8 +8,8 @@
 .single {
   position: relative;
   float: left;
-  width: 11.733333rem;
-  height: 12.693333rem;
+  /* width: 11.733333rem;
+  height: 12.693333rem; */
   margin-right: .533333rem;
   margin-left: .533333rem;
   transition: all 0.5s;
@@ -66,3 +66,9 @@
   display: block;
 }
 /* 壁纸内容结束 */
+.single .every-profile,.every-emoticon{
+  width: 5.3rem;
+  height: 5.3rem;
+  border-radius: .533333rem;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}

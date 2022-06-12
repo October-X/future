@@ -34,13 +34,14 @@ li {
   }
 }
 iframe {
-  margin-top: 2.666667rem;
-  margin-bottom: 2.752rem;
   width: 100%;
-  height: 29.973333rem;
+  height: 32.76rem;
 }
 .head {
   height: 2.666667rem;
+}
+.foot {
+  height: 2.933333rem;
 }
 header {
   left: 0;
@@ -79,19 +80,56 @@ header .music img {
 header .music:hover img {
   content: url(../icons/音乐_after.png);
 }
-.foot {
-  height: 2.933333rem;
+header #div {
+  left: 0;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  background-color: pink;
+  top: 2.666667rem;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+header #div button {
+  float: left;
+  width: 100%;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  border: 0;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #1296db;
+  background: transparent;
+}
+header #div button:hover {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  color: white;
 }
 footer {
   left: 0;
   position: fixed;
   bottom: 0;
-  display: flex;
   width: 100%;
   height: 2.933333rem;
   border-radius: 0.533333rem 0.533333rem 0 0;
   background-color: white;
   z-index: 9999;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer #content {
+  position: absolute;
+  flex: 100%;
+  width: 100%;
+  height: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+  bottom: 2.933333rem;
+  color: #ffffff;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
 }
 footer .icon {
   display: flex;

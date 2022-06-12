@@ -4,12 +4,21 @@ a {
 li {
   list-style: none;
 }
+.head {
+  height: 3.2rem;
+  background-color: white;
+}
+.foot {
+  height: 2.666667rem;
+  background-color: white;
+}
 .rotation {
   background-color: white;
 }
 .rotation .swiper-container {
-  width: 100%;
+  width: 93%;
   height: 100%;
+  border-radius: 0.533333rem;
 }
 .rotation video {
   width: 100%;
@@ -91,7 +100,30 @@ li {
 }
 .model-first-container .swiper-slide {
   text-align: center;
-  border-radius: 0.533333rem;
+  margin-top: 0.8rem;
+  padding-bottom: 1.4rem;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.model-second-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.model-second-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
   margin-top: 0.8rem;
   padding-bottom: 1.4rem;
   /* Center slide text vertically */
@@ -110,19 +142,7 @@ li {
 }
 .wallpaper .wallpaper-box {
   background-color: #dae8ef;
-  width: 100%;
   padding-bottom: 1.333333rem;
-  border-radius: 0 0 0.533333rem 0.533333rem;
-}
-.wallpaper img {
-  border-radius: 0.266667rem;
-  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
-}
-.wallpaper span {
-  display: block;
-  padding-top: 0.266667rem;
-  color: #1c1c1c;
-  font-size: 0.8rem;
 }
 .music .music-box {
   background-color: white;
@@ -172,4 +192,13 @@ li {
   to {
     transform: rotate(360deg);
   }
+}
+.profile .profile-box {
+  background-image: linear-gradient(to right, #9799d5 50%, white 50%);
+  padding-bottom: 1.333333rem;
+  border-radius: 0 0 0.533333rem 0.533333rem;
+}
+.emoticon .emoticon-box {
+  background-color: white;
+  padding-bottom: 1.333333rem;
 }

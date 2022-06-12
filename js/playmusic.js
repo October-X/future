@@ -12,10 +12,11 @@ function play1(){
      audio5.pause();audio5.currentTime = 0;
      audio6.pause();audio6.currentTime = 0; 
      audio1.play();//audio.play();// 播放  
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='play：白月光与朱砂痣';
     }
     else{    
      audio1.pause();// 暂停
-     document.getElementById('p1').style.content='black';   
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='suspend：白月光与朱砂痣';  
     }      
 }
 function play2(){     
@@ -26,9 +27,11 @@ function play2(){
      audio5.pause();audio5.currentTime = 0;
      audio6.pause();audio6.currentTime = 0;                
      audio2.play();//audio.play();// 播放  
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='play：烟火星辰';
     }
     else{    
      audio2.pause();// 暂停    
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='suspend：烟火星辰';
     }      
 }
 function play3(){      
@@ -39,9 +42,11 @@ function play3(){
      audio5.pause();audio5.currentTime = 0;
      audio6.pause();audio6.currentTime = 0;                 
      audio3.play();//audio.play();// 播放  
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='play：星辰不坠落';
     }
     else{    
      audio3.pause();// 暂停    
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='suspend：星辰不坠落';
     }      
 }
 function play4(){      
@@ -51,10 +56,12 @@ function play4(){
      audio3.pause();audio3.currentTime = 0;
      audio5.pause();audio5.currentTime = 0;
      audio6.pause();audio6.currentTime = 0;                 
-     audio4.play();//audio.play();// 播放  
+     audio4.play();//audio.play();// 播放 
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='play：情结'; 
     }
     else{    
-     audio4.pause();// 暂停    
+     audio4.pause();// 暂停
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='suspend：情结';    
     }      
 }
 function play5(){       
@@ -65,9 +72,11 @@ function play5(){
      audio4.pause();audio5.currentTime = 0;
      audio6.pause();audio6.currentTime = 0;               
      audio5.play();//audio.play();// 播放  
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='play：此生不换';
     }
     else{    
      audio5.pause();// 暂停    
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='suspend：此生不换';
     }      
 }
 function play6(){       
@@ -78,8 +87,10 @@ function play6(){
      audio4.pause();audio4.currentTime = 0;
      audio5.pause();audio5.currentTime = 0;             
      audio6.play();//audio.play();// 播放  
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='play：The Way I Still Love You';
     }
     else{    
-     audio6.pause();// 暂停    
-    }      
+     audio6.pause();// 暂停  
+     document.getElementById("content").innerHTML = document.getElementById("content").textContent='suspend：The Way I Still Love You';  
+    }  
 }
